@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <svg id="field" viewBox="0 0 400 300">
+        <circle
+          class="player team-1"
+          id="player1"
+          cx="0"
+          cy="0"
+          r="15"
+          data-speed="1"
+        ></circle>
+        <circle
+          class="player team-2"
+          id="player2"
+          cx="0"
+          cy="300"
+          r="15"
+          data-speed="1.5"
+        ></circle>
+        <circle
+          class="player team-1"
+          id="player3"
+          cx="400"
+          cy="0"
+          r="15"
+          data-speed="2"
+        ></circle>
+        <circle
+          class="player team-2"
+          id="player4"
+          cx="400"
+          cy="300"
+          r="15"
+          data-speed="3"
+        ></circle>
+      </svg>
+    </div>
+    <script type="module" src="/setup.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
